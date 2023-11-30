@@ -1,0 +1,7 @@
+//PRESTACAO=VALOR + ((VALOR * TAXA/100) * TEMPO)
+alert('Cálculo da prestação com atraso')
+var valor=parseFloat(prompt('Informe o valor da prestação'))
+var taxa=parseFloat(prompt('Qual o valor da taxa?'))
+var tempo=parseFloat(prompt('Há quanto tempo em atraso?'))
+prestacao=valor+((valor*taxa/100)*tempo)
+alert('O novo valor da prestação é de R$'+prestacao)

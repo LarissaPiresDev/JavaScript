@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #131e29;
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.container{
+    border: 2px solid #f3fffd;
+    padding: 30px 40px;
+    width: 40%;
+}
+
+.new-task-container{
+    background-color: #f3fffd;
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px (#131e29 0.03);
+    display: flex;
+}
